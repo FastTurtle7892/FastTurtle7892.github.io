@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>장윤석 - Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Software Engineer</h1>
+            <p class="subtitle">Embedded Systems · Indoor Positioning · Signal Processing</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container">
+                <div class="profile-image" style="flex-shrink: 0;">
+                    <!-- 👇 여기에 프로필 사진 경로를 넣어주세요. (예: assets/img/profile.jpg) 👇 -->
+                    <img src="assets/img/IMG_9767.JPG" alt="프로필 사진"
+                        style="width: 200px; height: 260px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                </div>
+                <div class="profile-grid">
+                    <div class="profile-item">
+                        <span class="label">이름</span>
+                        <span class="value">장윤석</span>
+                    </div>
+                    <div class="profile-item">
+                        <span class="label">이메일</span>
+                        <span class="value"><a href="mailto:jangys7892@gmail.com">jangys7892@gmail.com</a></span>
+                    </div>
+                    <div class="profile-item">
+                        <span class="label">ORCID</span>
+                        <span class="value"><a href="https://orcid.org/0009-0008-2251-6135"
+                                target="_blank">0009-0008-2251-6135</a></span>
+                    </div>
+                    <div class="profile-item">
+                        <span class="label">관심 분야</span>
+                        <span class="value">UWB 실내측위, 임베디드 시스템, 신호처리, C++ 시뮬레이션, 자율주행 임베디드, AI/RAG 시스템</span>
+                    </div>
+                    <div class="profile-item">
+                        <span class="label">하드웨어</span>
+                        <span class="value">Nordic nRF52840, Qorvo DW3000/DW3110, STM32, Jetson Orin</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Qualifications -->
+        <section id="education" class="section">
+            <h2 class="section-title">Education & Qualifications</h2>
+
+            <div class="edu-group" style="margin-bottom: 30px;">
+                <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 5px;">국민대학교 전자공학부 전자시스템공학전공</h3>
+                <p style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 10px;">2019.03 - 2025.08</p>
+                <p style="font-size: 0.95rem;">학점: 전공 4.33 / 4.5 (전체 4.27 / 4.5)</p>
+            </div>
+
+            <div class="edu-group" style="margin-bottom: 30px;">
+                <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 10px;">어학 및 SW 역량</h3>
+                <ul style="list-style-type: disc; padding-left: 20px; font-size: 0.95rem; line-height: 1.8;">
+                    <li>OPIc (IH)</li>
+                    <li>삼성 SW 역량 테스트 B형 (Professional)</li>
+                </ul>
+            </div>
+
+            <div class="edu-group">
+                <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 10px;">자격증</h3>
+                <ul style="list-style-type: disc; padding-left: 20px; font-size: 0.95rem; line-height: 1.8;">
+                    <li>리눅스 마스터 2급 (2026.01.02)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Publications -->
+        <section id="publications" class="section">
+            <h2 class="section-title">Publications</h2>
+            <div class="resume-grid">
+                <div class="resume-item pub-item">
+                    <span class="pub-badge">논문</span>
+                    <h3>"IEEE 802.15.4z UWB의 거리측정 정확도와 측정시간 최적화"</h3>
+                    <p class="date">한국전자파학회논문지 36.3 (2025): 274-282</p>
+                    <p class="description">UWB IC의 하드웨어 처리 시간과 PHY 파라미터 기반 시간 파라미터 최적화 연구</p>
+                </div>
+                <div class="resume-item pub-item">
+                    <span class="pub-badge">논문</span>
+                    <h3>"단일 채널을 활용한 1 cm 이하의 고정밀 UWB 구현 및 응용"</h3>
+                    <p class="date">한국전자파학회논문지 36.8 (2025): 749-756</p>
+                    <p class="description">I/Q 데이터 위상 복원을 통한 DS-TWR 거리 오차 1cm 이하 개선 연구</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Tech Stack</h2>
+            <div class="skills-section-grid">
+                <div class="skills-group">
+                    <h4 class="skills-group-title">Embedded / Hardware</h4>
+                    <div class="skills-container">
+                        <span class="skill-tag">C (Embedded)</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">STM32</span>
+                        <span class="skill-tag">FreeRTOS</span>
+                        <span class="skill-tag">Jetson Orin</span>
+                        <span class="skill-tag">Nordic nRF52840</span>
+                        <span class="skill-tag">Qorvo DW3000</span>
+                        <span class="skill-tag">Qorvo DW3110</span>
+                        <span class="skill-tag">IEEE 802.15.4z</span>
+                    </div>
+                </div>
+                <div class="skills-group">
+                    <h4 class="skills-group-title">Software / Framework</h4>
+                    <div class="skills-container">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">ROS 2</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">LangChain</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">MATLAB</span>
+                        <span class="skill-tag">Pygame</span>
+                        <span class="skill-tag">OpenCV</span>
+                    </div>
+                </div>
+                <div class="skills-group">
+                    <h4 class="skills-group-title">Algorithm / Protocol</h4>
+                    <div class="skills-container">
+                        <span class="skill-tag">FSM (Finite State Machine)</span>
+                        <span class="skill-tag">RAG / Hybrid Search</span>
+                        <span class="skill-tag">Multi-threading</span>
+                        <span class="skill-tag">DS-TWR</span>
+                        <span class="skill-tag">SS-TWR</span>
+                        <span class="skill-tag">AoA (Angle of Arrival)</span>
+                        <span class="skill-tag">Kalman Filter</span>
+                        <span class="skill-tag">Signal Processing</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience/Awards -->
+        <section id="experience" class="section">
+            <h2 class="section-title">Activities & Awards</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <p class="timeline-date">2024.01</p>
+                    <div class="timeline-content">
+                        <h3>AoA 기반 단일 앵커 UWB RTLS</h3>
+                        <p class="award">🏆 전자파학회 제 4회 동상</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <p class="timeline-date">2024.09</p>
+                    <div class="timeline-content">
+                        <h3>고정밀 UWB 위상 오차 보정 (Phase Correction)</h3>
+                        <p class="award">🏆 전자파학회 제 5회 동상 · 논문 게재</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <p class="timeline-date">2025.03</p>
+                    <div class="timeline-content">
+                        <h3>UWB 거리측정 성능 최적화</h3>
+                        <p class="award">✦ 논문 게재</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <p class="timeline-date">2025.07</p>
+                    <div class="timeline-content">
+                        <h3>SSAFY 14기 임베디드 트랙</h3>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <p class="timeline-date">2025.11</p>
+                    <div class="timeline-content">
+                        <h3>RobotPal — JETANK 로봇팔 가상 시뮬레이터</h3>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <p class="timeline-date">2026.01</p>
+                    <div class="timeline-content">
+                        <h3>스마트 토잉카 관제 시스템</h3>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <p class="timeline-date">2026.02</p>
+                    <div class="timeline-content">
+                        <h3>NETS — 장비 불량 데이터 자동 재분류</h3>
+                        <p class="award">★ 삼성전자 네트워크 사업부 연계</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-grid">
+                <article class="project-card" data-id="project2">
+                    <div class="project-content">
+                        <span class="project-institution">전자파학회 동상</span>
+                        <h3>AoA 기반 단일 앵커 UWB RTLS</h3>
+                        <p class="project-summary">DS-TWR + AoA 융합으로 앵커 수를 3개→1개로 줄인 실시간 위치 추적</p>
+                    </div>
+                </article>
+                <article class="project-card" data-id="project1">
+                    <div class="project-content">
+                        <span class="project-institution">논문 · 전자파학회 동상</span>
+                        <h3>고정밀 UWB 위상 오차 보정 (Phase Correction)</h3>
+                        <p class="project-summary">I/Q 위상 복원으로 거리 오차 1cm 이하 달성, ROS 기반 실시간 RTLS</p>
+                    </div>
+                </article>
+                <article class="project-card" data-id="project3">
+                    <div class="project-content">
+                        <span class="project-institution">논문</span>
+                        <h3>UWB 거리측정 성능 최적화</h3>
+                        <p class="project-summary">SS-TWR / DS-TWR 시간 파라미터 최적화로 정확도·속도 동시 개선</p>
+                    </div>
+                </article>
+                <article class="project-card" data-id="project4">
+                    <div class="project-content">
+                        <span class="project-institution">팀 프로젝트 · C++ / Cross-Platform</span>
+                        <h3>RobotPal — JETANK 로봇팔 가상 시뮬레이터</h3>
+                        <p class="project-summary">네트워크 계층 추상화(TCP/WebSocket 다형성) 및 싱글 스레드 → 멀티 스레드 리팩토링</p>
+                    </div>
+                </article>
+                <article class="project-card" data-id="project5">
+                    <div class="project-content">
+                        <span class="project-institution">팀 프로젝트 · 임베디드 / 자율주행</span>
+                        <h3>스마트 토잉카 관제 시스템</h3>
+                        <p class="project-summary">STM32 FreeRTOS 멀티태스크 FSM 설계로 공항 항공기 자율 견인 임베디드 전담 구현</p>
+                    </div>
+                </article>
+                <article class="project-card" data-id="project6">
+                    <div class="project-content">
+                        <span class="project-institution">삼성전자 네트워크 사업부 연계 · AI / RAG</span>
+                        <h3>NETS — 장비 불량 데이터 자동 재분류</h3>
+                        <p class="project-summary">하이브리드 검색(BM25 + Milvus) + LLM Judge RAG 파이프라인으로 모호한 불량 증상 자동 재분류</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 장윤석. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="modal-title">Project Title</h2>
+            <p id="modal-date" class="modal-meta"></p>
+            <div id="modal-body">
+                <!-- Dynamic Content -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Zoom Modal -->
+    <div id="image-zoom-modal" class="image-zoom-modal">
+        <span class="close-zoom-button">&times;</span>
+        <img class="image-zoom-content" id="zoomed-image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
